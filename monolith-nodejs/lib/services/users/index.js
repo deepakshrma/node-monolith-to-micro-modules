@@ -1,4 +1,4 @@
-const http = require('../../core/http')
+const http = require('core/http')
 
 exports.getUsers = ( ) => {
     return http.get('/users')

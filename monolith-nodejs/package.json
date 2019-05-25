@@ -5,7 +5,7 @@
   "main": "src/index.js",
   "scripts": {
     "dev": "cross-env NODE_ENV=development nodemon --watch src src/index.js",
-    "start": "node src/index.js",
+    "start": "NODE_PATH=./lib node src/index.js",
     "json-server": "json-server",
     "database": "json-server --watch src/db/data.json",
     "lint": "eslint . --ignore-path .gitignore && prettier --check \"**/*.{json,md,html,yaml}\" --ignore-path .gitignore",

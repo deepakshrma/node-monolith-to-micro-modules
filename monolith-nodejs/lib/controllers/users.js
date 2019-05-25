@@ -1,4 +1,4 @@
-const {getUsers, getUsersById} = require('../services/users')
+const {getUsers, getUsersById} = require('services/users')
 
 exports.getUsers = async (req, res) => {
   const { data: users } = await getUsers();

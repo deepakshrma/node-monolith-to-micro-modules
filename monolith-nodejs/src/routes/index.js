@@ -1,6 +1,6 @@
 const { Router } = require('express');
 const { NotFound } = require('http-errors');
-const usersController = require('../controllers/users')
+const usersController = require('controllers/users')
 const router = Router();
 
 //
